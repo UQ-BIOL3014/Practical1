@@ -6,7 +6,7 @@ hydrophobics = "FLIMVPAWG"
 sequence = ["M", "H", "K", "L"]
 
 for aa in sequence:
-    print "The amino acids is ", aa
+    print "The amino acid is ", aa
     if aa in hydrophobics:
-        print " It is hydrophobic"
+        print "It is hydrophobic"
 print "End of the program"
