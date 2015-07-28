@@ -3,9 +3,7 @@ BIOL3014/BINF700 Practical 1: Python Programming
 
 * Due: 11 AM Wednesday 05/08/2015
 * Revision: 1
-* Marks: 
-    * BIOL3014 - 8 marks total. 
-    * BINF7000 - 12 marks total.
+* Marks: BIOL3014 - 8 marks total. BINF7000 - 12 marks total.
 
 
 Python programming
@@ -60,6 +58,8 @@ downloaded using the following commands::
 You should see this -
 
 .. image:: load_notebook.png
+   :alt: Load the IPython Notebook
+
 
 Click on the notebook prefixed with the course identifier that you are enrolled in.
 
