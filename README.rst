@@ -1,8 +1,11 @@
 BIOL3014/BINF700 Practical 1
 ============================
 
-* Due: TODO
+* Due: 11 AM Wednesday 05/08/2015
 * Revision: 1
+* Marks: 
+    * BIOL3014 - 8 marks total. 
+    * BINF7000 - 12 marks total.
 
 
 Python programming
@@ -13,64 +16,48 @@ language. Both understanding and writing python code is fundamental for
 understanding BIOL3014/BINF7000 practicals, projects and lectures.
 
 
-Requirements
+Instructions
 ------------
 
-Write code in a plain text editor. TextWrangler or Atom are good GUI based 
-editors.
+This practical uses the `IPython Notebook`_. The IPython Notebook is an 
+interactive computational environment, in which you can combine code 
+execution, rich text, mathematics, plots and rich media. 
 
-Try and follow the style PEP8_ guide.
+You need to install IPython Notebook. Authenticate to the UQ traffic 
+management system (if you have not already), then, in the 
+*terminal application*, execute the following commands::
 
-Submit all code with filenames as requested.
+    pip install --user "ipython[notebook]"
+    export PYTHONPATH=$PYTHONPATH:/Users/local_user/Library/Python/2.7/ib/python/site-packages/
+    export PATH=$PATH:/Users/local_user/Library/Python/2.7/bin/
+    cd ~/
+    mkdir BIOL3014 && cd BIOL3014 && ipython notebook
 
-.. _PEP8: https://www.python.org/dev/peps/pep-0008/
-
-
-Exercise 1: Data types & conditionals (1/2 mark)
-------------------------------------------------
-
-Modify the program *one_to_three_letter_code.py* in::
-
-    src/one_to_three_letter_code.py 
-
-So that:
-
-**(1):** It prints/outputs::
-
-    The provided letter is W
-    This letter is in the list, it corresponds to the amino acid TRP
-
-**(2):** When changing the letter to 'Z', it prints/outputs::
-
-    The provided letter is Z
-    This letter is not the list and therefore does not correspond to an amino acid
-
-**Submit both programs as q11.py and q12.py respectively.**
+Your web browser should load up a shiny new IPython Notebook session. **Close it for now.**
 
 
-Exercise 2:  (1 mark)
--------------------
+This practical also uses the uqseqlib_ Python library, a purpose built set 
+of python modules for UQ Bioinformatics courses. You will need to install 
+uqseqlib. In the *terminal application*, execute the following command::
 
-By using/modifying the program *hydrophobic_detection.py* in::
+    pip install --user git+https://github.com/UQ-BIOL3014/uqbinfpy.git
 
-    src/hydrophobic_detection.py
+Finally, the IPython Notebook for Practical 1 and all associated data can be 
+downloaded using the following commands::
+    
+    cd ~/BIOL3014
+    git clone https://github.com/UQ-BIOL3014/Practical1
+    cd Practical1
 
-**(1):** How does the output change when the sequence variable is changed to 
-*sequence = "MHKL"*. Explain what has happened.
 
-**(2):** Modify the code so that instead of printing *It is hydrophobic* if 
-a residue is hydrophobic, you instead print the sequence, then use a '*' 
-on the line/position below to denote hydrophobicity.
+Submission Requirements
+-----------------------
 
-The expected output is::
+Please submit your IPython Notebook with the completed code blocks and 
+written answers where requested via the BIOL3014/BINF7000 Blackboard 
+submission system. Use the format *STUDENT_NUMBER_P1.ipynb*. Detailed 
+instructions are provided at the start of Practical 1.
 
-    MHKL
-    *  *
+Late submissions without sufficient reason will incur a 20% loss of the total 
+score per late day.
 
-**(3):** Using the program you wrote in (2), change the sequence variable to the contents of::
-
-    src/sequence.txt
-
-How many hydrophobic clusters do you see? What kind of protein is this and why?
-
-**Submit your written answers and program q22.py.**
