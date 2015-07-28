@@ -1,0 +1,2 @@
+P8096HYR	Transcription factor from plant	1	21	MREVHLLLLLVL
+P80IKDLC	Unkown protein	1	19	MDELVHLLLLM
