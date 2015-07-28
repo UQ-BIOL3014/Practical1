@@ -19,6 +19,9 @@ new to programming and/or Python.
 Instructions
 ------------
 
+**We expect this practical to be performed on the UQ ILC computers using the 
+OSX Yosemite image**
+
 This practical uses the `IPython Notebook`_. The IPython Notebook is an 
 interactive computational environment, in which you can combine code 
 execution, rich text, mathematics, plots and rich media. 
