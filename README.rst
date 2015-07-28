@@ -37,6 +37,12 @@ management system (if you have not already), then, in the
 
 Your web browser should load up a shiny new IPython Notebook session. **Close it for now.**
 
+Return to the terminal application::
+
+    control-c
+    y
+
+
 This practical also uses the uqseqlib_ Python library, a purpose built set 
 of Python modules for UQ Bioinformatics courses. You will need to install 
 uqseqlib. In the *terminal application*, execute the following command::
@@ -48,7 +54,14 @@ downloaded using the following commands::
     
     cd ~/BIOL3014
     git clone https://github.com/UQ-BIOL3014/Practical1
-    cd Practical1
+    cd Practical1/notebook
+    ipython notebook
+
+You should see this -
+
+.. image:: load_notebook.png
+
+Click on the notebook prefixed with the course identifier that you are enrolled in.
 
 
 Submission Requirements
