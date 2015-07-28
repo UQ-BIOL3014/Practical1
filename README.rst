@@ -1,6 +1,9 @@
 BIOL3014/BINF700 Practical 1
 ============================
 
+Python Programming
+------------------
+
 * Due: 11 AM Wednesday 05/08/2015
 * Revision: 1
 * Marks: 
@@ -11,9 +14,11 @@ BIOL3014/BINF700 Practical 1
 Python programming
 ------------------
 
-This practical familiarises you with the key elements of the python programming 
-language. Both understanding and writing python code is fundamental for 
-understanding BIOL3014/BINF7000 practicals, projects and lectures.
+This practical familiarises you with the key elements of the Python 
+programming language. Both understanding and writing Python code is 
+fundamental for understanding BIOL3014/BINF7000 practicals, projects and 
+lectures. We have included the UQ Bioinformatics `Python Guide` if you are
+new to programming and/or Python.
 
 
 Instructions
@@ -35,9 +40,8 @@ management system (if you have not already), then, in the
 
 Your web browser should load up a shiny new IPython Notebook session. **Close it for now.**
 
-
 This practical also uses the uqseqlib_ Python library, a purpose built set 
-of python modules for UQ Bioinformatics courses. You will need to install 
+of Python modules for UQ Bioinformatics courses. You will need to install 
 uqseqlib. In the *terminal application*, execute the following command::
 
     pip install --user git+https://github.com/UQ-BIOL3014/uqbinfpy.git
@@ -61,3 +65,6 @@ instructions are provided at the start of Practical 1.
 Late submissions without sufficient reason will incur a 20% loss of the total 
 score per late day.
 
+.. _`IPython Notebook`: http://ipython.org/notebook.html
+.. _uqseqlib: https://github.com/UQ-BIOL3014/uqbinfpy
+.. _`Python Guide`: https://github.com/UQ-BIOL3014/Practical1/blob/master/notebook/Python_Guide.pdf
