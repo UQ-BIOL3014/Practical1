@@ -1,8 +1,5 @@
-BIOL3014/BINF700 Practical 1
-============================
-
-Python Programming
-------------------
+BIOL3014/BINF700 Practical 1: Python Programming
+================================================
 
 * Due: 11 AM Wednesday 05/08/2015
 * Revision: 1
@@ -17,7 +14,7 @@ Python programming
 This practical familiarises you with the key elements of the Python 
 programming language. Both understanding and writing Python code is 
 fundamental for understanding BIOL3014/BINF7000 practicals, projects and 
-lectures. We have included the UQ Bioinformatics `Python Guide` if you are
+lectures. We have included the UQ Bioinformatics `Python Guide`_ if you are
 new to programming and/or Python.
 
 
