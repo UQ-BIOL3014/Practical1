@@ -20,7 +20,7 @@ Instructions
 ------------
 
 **We expect this practical to be performed on the UQ ILC computers using the 
-OSX Yosemite image**
+OSX Yosemite image.**
 
 This practical uses the `IPython Notebook`_. The IPython Notebook is an 
 interactive computational environment, in which you can combine code 
