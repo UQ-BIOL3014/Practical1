@@ -31,7 +31,7 @@ management system (if you have not already), then, in the
 *terminal application*, execute the following commands::
 
     pip install --user "ipython[notebook]"
-    export PYTHONPATH=$PYTHONPATH:/Users/local_user/Library/Python/2.7/ib/python/site-packages/
+    export PYTHONPATH=$PYTHONPATH:/Users/local_user/Library/Python/2.7/lib/python/site-packages/
     export PATH=$PATH:/Users/local_user/Library/Python/2.7/bin/
     cd ~/
     mkdir BIOL3014 && cd BIOL3014 && ipython notebook
