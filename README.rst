@@ -1,5 +1,5 @@
-BIOL3014/BINF700 Practical 1: Python Programming
-================================================
+BIOL3014/BINF7000 Practical 1: Python Programming
+=================================================
 
 * Due: 11 AM Wednesday 05/08/2015
 * Revision: 2 
